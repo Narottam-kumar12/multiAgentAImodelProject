@@ -56,6 +56,11 @@ Customize behavior by:
  2.  Enhance memory: Build sophisticated context storage with memory.py.
 
  3.  Improve evaluation: Replace or augment judge.py with scoring metrics (e.g., semantic similarity, external APIs).
+
+
+#demo video
+
+link ---> https://drive.google.com/file/d/1YhMt7M0Bs2GPLwAeHvpEHTip0rEzjMtO/view?usp=drivesdk
  
 
 
