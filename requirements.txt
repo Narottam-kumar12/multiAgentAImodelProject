@@ -1,0 +1,20 @@
+# Core Language Model APIs
+openai>=1.0.0
+langchain>=0.1.14
+langchain-openai>=0.0.6
+
+# Multi-agent orchestration
+langgraph>=0.5.0
+
+# Memory and logging
+tiktoken>=0.5.1
+python-dotenv>=1.0.1
+loguru>=0.7.2
+
+# Utilities
+rich>=13.7.0
+graphviz>=0.20.3
+
+# For CLI or async (optional)
+click>=8.1.7
+aiohttp>=3.9.3
