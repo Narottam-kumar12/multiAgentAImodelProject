@@ -1,14 +1,14 @@
-**multiAgentAImodelProject 🚀**
+# **multiAgentAImodelProject 🚀**
 
 A Python framework for building and orchestrating multi-agent AI systems featuring debate, feedback, judgment, memory, logging, and user input handling via LLM-powered agents
 
-🧩 Project Overview
+## 🧩 Project Overview
 
 
 This project demonstrates how to coordinate multiple specialized agents—such as debaters, judges, 
 and memory managers—using language models to collaboratively process and refine user input before delivering a final result.
 
-Core Components
+## Core Components
 
 agents.py – Defines classes for various agent types (e.g., DebateAgent, JudgeAgent).
 
@@ -24,11 +24,11 @@ user_input.py – Standardizes and pre-processes incoming requests from users.
 
 logger.py – Utility for structured logging across agents and sessions.
 
-__Install dependencies:__
+## __Install dependencies:__
 
 pip install -r requirements.txt
 
-**__🚦 Usage__**
+## __🚦 Usage__
 
 Run the main orchestrator ---->> python main.py
 
@@ -42,7 +42,7 @@ Customize behavior by:
  
  Tuning feedback and judge thresholds in feedback.py and judge.py
 
- **🧠 How It Works**
+ ## **🧠 How It Works**
 1.  UserInputAgent sanitizes and formats incoming prompts.
 2.  DebateAgent proposes multiple candidate responses.
 3.  Responses are logged in debate_log.txt via Logger.
@@ -50,7 +50,7 @@ Customize behavior by:
 5.  Optional FeedbackAgent refines the output further.
 6.  MemoryAgent updates historical context for future interactions.
 
- **🔧 Extensibility**
+ ## **🔧 Extensibility**
  1.  Add new agents: Extend base agent class in agents.py.
  
  2.  Enhance memory: Build sophisticated context storage with memory.py.
@@ -58,7 +58,7 @@ Customize behavior by:
  3.  Improve evaluation: Replace or augment judge.py with scoring metrics (e.g., semantic similarity, external APIs).
 
 
-#demo video
+## demo video
 
 link ---> https://drive.google.com/file/d/1YhMt7M0Bs2GPLwAeHvpEHTip0rEzjMtO/view?usp=drivesdk
  
